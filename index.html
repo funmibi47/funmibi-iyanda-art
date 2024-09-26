@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Funmibi Iyanda</title>
+</head>
+
+<body>
+
+    <nav class="navbar mb-3 navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Funmibi Iyanda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active" id="home">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item" id="about">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item" id="portfolio">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item" id="contact">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="section home" style="height: 100vh;">
+            <div class="image-box__background"></div>
+            <div class="image-box__overlay"></div>
+            <div class="image-box__content">
+                <div>
+                    <div class="text-center">
+                        <h1>"Art is the language <br> of the soul, unspoken <br> yet deeply felt"</h1>
+                    </div>
+                    <div class="text-center"><button onclick="click_('contact')">Reach Out</button></div>
+                </div>
+            </div>
+        </section>
+        <section class="section hidden about">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="./img/20.jpeg" alt="">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1 class="text-center">About me</h1>
+                    <p>
+                        Welcome! I'm Funmibi Iyanda, a Nigerian surrealist artist originally from Oyo State,
+                        now based in Abuja. My work is all about exploring themes of empowerment, growth,
+                        and hope through vibrant, imaginative creations. I’ve always been drawn to the
+                        expressive world of art, even though I studied Computer Engineering at Eastern
+                        Mediterranean University in Cyprus. That technical background gave me a unique
+                        perspective, but art is where I find true joy and freedom. <br>
+                        I love working with both oil and acrylic paints to create surreal landscapes,
+                        animals, and female figures. My paintings often feature bright, bold colors
+                        because I believe color has the power to evoke warmth, depth, and positivity.
+                        Whether it's a figure with colorful hair and eyes or a peaceful landscape, I
+                        aim to make each piece radiate a sense of hope and wonder. <br>
+                        I’m a proud member of the Female Artists Association of Nigeria (FEAAN), and
+                        I’ve had the opportunity to exhibit my work at significant events like the
+                        International Women’s Day exhibition in collaboration with Nike Art Gallery
+                        and the Yiaga Art4Democracy exhibition. These exhibitions allow me to share
+                        my art with a wider audience and connect with people through meaningful visual stories. <br>
+                        Beyond painting, I also design handmade beaded and leather bags, as well as beaded
+                        jewelry. I love bringing a creative touch to everything I do, whether
+                        it’s on a canvas or through the accessories I craft. <br>
+                        My hope is that when you view my art, you feel a sense of warmth, optimism,
+                        and connection. I want my work to spark joy and offer a colorful,
+                        imaginative escape from the everyday. Thank you for taking the time
+                        to explore my world, and I hope my art leaves you with a sense of inspiration. <br>
+                        Feel free to reach out, and I’d love to connect! <br>
+                        <b>Contact:</b> <br>
+                        Email: fh.iyanda@gmail.com <br>
+                        Art Instagram: @Funmibiisarts
+                        Bag Instagram: @Rheemdesigns
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section hidden portfolio">
+            <!-- Photo Grid -->
+            <div class="row">
+                <div class="column">
+                    <img id="1" src="./img/1.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="2" src="./img/2.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="10" src="./img/10.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="11" src="./img/11.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="17" src="./img/17.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img id="8" src="./img/8.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="9" src="./img/9.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="3" src="./img/3.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="4" src="./img/4.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="18" src="./img/18.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img id="5" src="./img/5.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="6" src="./img/6.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="7" src="./img/7.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="13" src="./img/13.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="19" src="./img/19.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                </div>
+                <div class="column">
+                    <img id="12" src="./img/12.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details"
+                        data-bs-toggle="tooltip" data-bs-placement="right" data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Click to view details" style="width:100%">
+                    <img id="14" src="./img/14.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="15" src="./img/15.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                    <img id="16" src="./img/16.jpg" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Click to view details" style="width:100%">
+                </div>
+            </div>
+
+        </section>
+        <section class="section hidden contact">
+            <span class="one"></span>
+            <span class="two"></span>
+            <div class="any_question text-center">
+                <h3>Have Any Questions ?</h3>
+                <h6>I'm At Your Service</h6>
+            </div>
+            <div class="contact_list_container">
+                <div class="contact_list">
+                    <i class="bi bi-laptop"></i>
+                    <h5>Call me on</h5>
+                    <h6>+234 903 8504 402 </h6>
+                </div>
+                <div class="contact_list">
+                    <i class=" p-2 bi bi-instagram"></i>
+                    <h5>Instagram</h5>
+                    <a href="https://www.instagram.com/funmibiisarts">
+                        <h6>My link</h6>
+                    </a>
+                </div>
+                <div class="contact_list">
+                    <i class="bi bi-laptop"></i>
+                    <h5>Email</h5>
+                    <h6>f.painting.shop@gmail.com</h6>
+                </div>
+            </div>
+            <div class="any_question text-center">
+                <h3>Email Me From Here</h3>
+                <h6>I Am Very Responsive to Emails</h6>
+            </div>
+            <form action="https://formsubmit.co/f.painting.shop@gmail.com" method="POST">
+                <div class="row contact_form">
+                    <div class="col-6"><input type="text" name="Name" required placeholder="Name"></div>
+                    <div class="col-6 text-end"><input type="text" name="Email" required placeholder="Email"></div>
+                    <div class="col-12">
+                        <select name="Country" class="countries" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="col-12"><textarea name="Message" required id="" cols="30" rows="10"
+                            placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-end">
+                        <button class="send_msg" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mt-3 pt-3">
+        <div class="text-center">
+            <div class="">
+                <a href="https://www.instagram.com/funmibiisarts"><i class=" p-2 bi bi-instagram"></i></a>
+                <a href="https://www.tiktok.com/@funmibiisarts"><i class=" p-2 bi bi-tiktok"></i></a>
+                <a href="https://twitter.com/funmibiisarts"><i class=" p-2 bi bi-twitter-x"></i></a>
+            </div>
+            <div>
+                <p class="mb-0"> <b>Email:</b> f.painting.shop@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Initialize tooltips
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        // load countries
+
+        function loadCountries() {
+            let countries = [
+                { "name": "Afghanistan", "code": "AF" },
+                { "name": "land Islands", "code": "AX" },
+                { "name": "Albania", "code": "AL" },
+                { "name": "Algeria", "code": "DZ" },
+                { "name": "American Samoa", "code": "AS" },
+                { "name": "AndorrA", "code": "AD" },
+                { "name": "Angola", "code": "AO" },
+                { "name": "Anguilla", "code": "AI" },
+                { "name": "Antarctica", "code": "AQ" },
+                { "name": "Antigua and Barbuda", "code": "AG" },
+                { "name": "Argentina", "code": "AR" },
+                { "name": "Armenia", "code": "AM" },
+                { "name": "Aruba", "code": "AW" },
+                { "name": "Australia", "code": "AU" },
+                { "name": "Austria", "code": "AT" },
+                { "name": "Azerbaijan", "code": "AZ" },
+                { "name": "Bahamas", "code": "BS" },
+                { "name": "Bahrain", "code": "BH" },
+                { "name": "Bangladesh", "code": "BD" },
+                { "name": "Barbados", "code": "BB" },
+                { "name": "Belarus", "code": "BY" },
+                { "name": "Belgium", "code": "BE" },
+                { "name": "Belize", "code": "BZ" },
+                { "name": "Benin", "code": "BJ" },
+                { "name": "Bermuda", "code": "BM" },
+                { "name": "Bhutan", "code": "BT" },
+                { "name": "Bolivia", "code": "BO" },
+                { "name": "Bosnia and Herzegovina", "code": "BA" },
+                { "name": "Botswana", "code": "BW" },
+                { "name": "Bouvet Island", "code": "BV" },
+                { "name": "Brazil", "code": "BR" },
+                { "name": "British Indian Ocean Territory", "code": "IO" },
+                { "name": "Brunei Darussalam", "code": "BN" },
+                { "name": "Bulgaria", "code": "BG" },
+                { "name": "Burkina Faso", "code": "BF" },
+                { "name": "Burundi", "code": "BI" },
+                { "name": "Cambodia", "code": "KH" },
+                { "name": "Cameroon", "code": "CM" },
+                { "name": "Canada", "code": "CA" },
+                { "name": "Cape Verde", "code": "CV" },
+                { "name": "Cayman Islands", "code": "KY" },
+                { "name": "Central African Republic", "code": "CF" },
+                { "name": "Chad", "code": "TD" },
+                { "name": "Chile", "code": "CL" },
+                { "name": "China", "code": "CN" },
+                { "name": "Christmas Island", "code": "CX" },
+                { "name": "Cocos (Keeling) Islands", "code": "CC" },
+                { "name": "Colombia", "code": "CO" },
+                { "name": "Comoros", "code": "KM" },
+                { "name": "Congo", "code": "CG" },
+                { "name": "Congo, The Democratic Republic of the", "code": "CD" },
+                { "name": "Cook Islands", "code": "CK" },
+                { "name": "Costa Rica", "code": "CR" },
+                { "name": "Cote D\"Ivoire", "code": "CI" },
+                { "name": "Croatia", "code": "HR" },
+                { "name": "Cuba", "code": "CU" },
+                { "name": "Cyprus", "code": "CY" },
+                { "name": "Czech Republic", "code": "CZ" },
+                { "name": "Denmark", "code": "DK" },
+                { "name": "Djibouti", "code": "DJ" },
+                { "name": "Dominica", "code": "DM" },
+                { "name": "Dominican Republic", "code": "DO" },
+                { "name": "Ecuador", "code": "EC" },
+                { "name": "Egypt", "code": "EG" },
+                { "name": "El Salvador", "code": "SV" },
+                { "name": "Equatorial Guinea", "code": "GQ" },
+                { "name": "Eritrea", "code": "ER" },
+                { "name": "Estonia", "code": "EE" },
+                { "name": "Ethiopia", "code": "ET" },
+                { "name": "Falkland Islands (Malvinas)", "code": "FK" },
+                { "name": "Faroe Islands", "code": "FO" },
+                { "name": "Fiji", "code": "FJ" },
+                { "name": "Finland", "code": "FI" },
+                { "name": "France", "code": "FR" },
+                { "name": "French Guiana", "code": "GF" },
+                { "name": "French Polynesia", "code": "PF" },
+                { "name": "French Southern Territories", "code": "TF" },
+                { "name": "Gabon", "code": "GA" },
+                { "name": "Gambia", "code": "GM" },
+                { "name": "Georgia", "code": "GE" },
+                { "name": "Germany", "code": "DE" },
+                { "name": "Ghana", "code": "GH" },
+                { "name": "Gibraltar", "code": "GI" },
+                { "name": "Greece", "code": "GR" },
+                { "name": "Greenland", "code": "GL" },
+                { "name": "Grenada", "code": "GD" },
+                { "name": "Guadeloupe", "code": "GP" },
+                { "name": "Guam", "code": "GU" },
+                { "name": "Guatemala", "code": "GT" },
+                { "name": "Guernsey", "code": "GG" },
+                { "name": "Guinea", "code": "GN" },
+                { "name": "Guinea-Bissau", "code": "GW" },
+                { "name": "Guyana", "code": "GY" },
+                { "name": "Haiti", "code": "HT" },
+                { "name": "Heard Island and Mcdonald Islands", "code": "HM" },
+                { "name": "Holy See (Vatican City State)", "code": "VA" },
+                { "name": "Honduras", "code": "HN" },
+                { "name": "Hong Kong", "code": "HK" },
+                { "name": "Hungary", "code": "HU" },
+                { "name": "Iceland", "code": "IS" },
+                { "name": "India", "code": "IN" },
+                { "name": "Indonesia", "code": "ID" },
+                { "name": "Iran, Islamic Republic Of", "code": "IR" },
+                { "name": "Iraq", "code": "IQ" },
+                { "name": "Ireland", "code": "IE" },
+                { "name": "Isle of Man", "code": "IM" },
+                { "name": "Israel", "code": "IL" },
+                { "name": "Italy", "code": "IT" },
+                { "name": "Jamaica", "code": "JM" },
+                { "name": "Japan", "code": "JP" },
+                { "name": "Jersey", "code": "JE" },
+                { "name": "Jordan", "code": "JO" },
+                { "name": "Kazakhstan", "code": "KZ" },
+                { "name": "Kenya", "code": "KE" },
+                { "name": "Kiribati", "code": "KI" },
+                { "name": "Korea, Democratic People\"S Republic of", "code": "KP" },
+                { "name": "Korea, Republic of", "code": "KR" },
+                { "name": "Kuwait", "code": "KW" },
+                { "name": "Kyrgyzstan", "code": "KG" },
+                { "name": "Lao People\"S Democratic Republic", "code": "LA" },
+                { "name": "Latvia", "code": "LV" },
+                { "name": "Lebanon", "code": "LB" },
+                { "name": "Lesotho", "code": "LS" },
+                { "name": "Liberia", "code": "LR" },
+                { "name": "Libyan Arab Jamahiriya", "code": "LY" },
+                { "name": "Liechtenstein", "code": "LI" },
+                { "name": "Lithuania", "code": "LT" },
+                { "name": "Luxembourg", "code": "LU" },
+                { "name": "Macao", "code": "MO" },
+                { "name": "Macedonia, The Former Yugoslav Republic of", "code": "MK" },
+                { "name": "Madagascar", "code": "MG" },
+                { "name": "Malawi", "code": "MW" },
+                { "name": "Malaysia", "code": "MY" },
+                { "name": "Maldives", "code": "MV" },
+                { "name": "Mali", "code": "ML" },
+                { "name": "Malta", "code": "MT" },
+                { "name": "Marshall Islands", "code": "MH" },
+                { "name": "Martinique", "code": "MQ" },
+                { "name": "Mauritania", "code": "MR" },
+                { "name": "Mauritius", "code": "MU" },
+                { "name": "Mayotte", "code": "YT" },
+                { "name": "Mexico", "code": "MX" },
+                { "name": "Micronesia, Federated States of", "code": "FM" },
+                { "name": "Moldova, Republic of", "code": "MD" },
+                { "name": "Monaco", "code": "MC" },
+                { "name": "Mongolia", "code": "MN" },
+                { "name": "Montenegro", "code": "ME" },
+                { "name": "Montserrat", "code": "MS" },
+                { "name": "Morocco", "code": "MA" },
+                { "name": "Mozambique", "code": "MZ" },
+                { "name": "Myanmar", "code": "MM" },
+                { "name": "Namibia", "code": "NA" },
+                { "name": "Nauru", "code": "NR" },
+                { "name": "Nepal", "code": "NP" },
+                { "name": "Netherlands", "code": "NL" },
+                { "name": "Netherlands Antilles", "code": "AN" },
+                { "name": "New Caledonia", "code": "NC" },
+                { "name": "New Zealand", "code": "NZ" },
+                { "name": "Nicaragua", "code": "NI" },
+                { "name": "Niger", "code": "NE" },
+                { "name": "Nigeria", "code": "NG" },
+                { "name": "Niue", "code": "NU" },
+                { "name": "Norfolk Island", "code": "NF" },
+                { "name": "Northern Mariana Islands", "code": "MP" },
+                { "name": "Norway", "code": "NO" },
+                { "name": "Oman", "code": "OM" },
+                { "name": "Pakistan", "code": "PK" },
+                { "name": "Palau", "code": "PW" },
+                { "name": "Palestinian Territory, Occupied", "code": "PS" },
+                { "name": "Panama", "code": "PA" },
+                { "name": "Papua New Guinea", "code": "PG" },
+                { "name": "Paraguay", "code": "PY" },
+                { "name": "Peru", "code": "PE" },
+                { "name": "Philippines", "code": "PH" },
+                { "name": "Pitcairn", "code": "PN" },
+                { "name": "Poland", "code": "PL" },
+                { "name": "Portugal", "code": "PT" },
+                { "name": "Puerto Rico", "code": "PR" },
+                { "name": "Qatar", "code": "QA" },
+                { "name": "Reunion", "code": "RE" },
+                { "name": "Romania", "code": "RO" },
+                { "name": "Russian Federation", "code": "RU" },
+                { "name": "RWANDA", "code": "RW" },
+                { "name": "Saint Helena", "code": "SH" },
+                { "name": "Saint Kitts and Nevis", "code": "KN" },
+                { "name": "Saint Lucia", "code": "LC" },
+                { "name": "Saint Pierre and Miquelon", "code": "PM" },
+                { "name": "Saint Vincent and the Grenadines", "code": "VC" },
+                { "name": "Samoa", "code": "WS" },
+                { "name": "San Marino", "code": "SM" },
+                { "name": "Sao Tome and Principe", "code": "ST" },
+                { "name": "Saudi Arabia", "code": "SA" },
+                { "name": "Senegal", "code": "SN" },
+                { "name": "Serbia", "code": "RS" },
+                { "name": "Seychelles", "code": "SC" },
+                { "name": "Sierra Leone", "code": "SL" },
+                { "name": "Singapore", "code": "SG" },
+                { "name": "Slovakia", "code": "SK" },
+                { "name": "Slovenia", "code": "SI" },
+                { "name": "Solomon Islands", "code": "SB" },
+                { "name": "Somalia", "code": "SO" },
+                { "name": "South Africa", "code": "ZA" },
+                { "name": "South Georgia and the South Sandwich Islands", "code": "GS" },
+                { "name": "Spain", "code": "ES" },
+                { "name": "Sri Lanka", "code": "LK" },
+                { "name": "Sudan", "code": "SD" },
+                { "name": "Suriname", "code": "SR" },
+                { "name": "Svalbard and Jan Mayen", "code": "SJ" },
+                { "name": "Swaziland", "code": "SZ" },
+                { "name": "Sweden", "code": "SE" },
+                { "name": "Switzerland", "code": "CH" },
+                { "name": "Syrian Arab Republic", "code": "SY" },
+                { "name": "Taiwan, Province of China", "code": "TW" },
+                { "name": "Tajikistan", "code": "TJ" },
+                { "name": "Tanzania, United Republic of", "code": "TZ" },
+                { "name": "Thailand", "code": "TH" },
+                { "name": "Timor-Leste", "code": "TL" },
+                { "name": "Togo", "code": "TG" },
+                { "name": "Tokelau", "code": "TK" },
+                { "name": "Tonga", "code": "TO" },
+                { "name": "Trinidad and Tobago", "code": "TT" },
+                { "name": "Tunisia", "code": "TN" },
+                { "name": "Turkey", "code": "TR" },
+                { "name": "Turkmenistan", "code": "TM" },
+                { "name": "Turks and Caicos Islands", "code": "TC" },
+                { "name": "Tuvalu", "code": "TV" },
+                { "name": "Uganda", "code": "UG" },
+                { "name": "Ukraine", "code": "UA" },
+                { "name": "United Arab Emirates", "code": "AE" },
+                { "name": "United Kingdom", "code": "GB" },
+                { "name": "United States", "code": "US" },
+                { "name": "United States Minor Outlying Islands", "code": "UM" },
+                { "name": "Uruguay", "code": "UY" },
+                { "name": "Uzbekistan", "code": "UZ" },
+                { "name": "Vanuatu", "code": "VU" },
+                { "name": "Venezuela", "code": "VE" },
+                { "name": "Viet Nam", "code": "VN" },
+                { "name": "Virgin Islands, British", "code": "VG" },
+                { "name": "Virgin Islands, U.S.", "code": "VI" },
+                { "name": "Wallis and Futuna", "code": "WF" },
+                { "name": "Western Sahara", "code": "EH" },
+                { "name": "Yemen", "code": "YE" },
+                { "name": "Zambia", "code": "ZM" },
+                { "name": "Zimbabwe", "code": "ZW" }
+            ]
+            let Options
+            Options += '<option value="' + '' + '" selected="' + '">' + 'Select Your Country' + '</option>'
+            countries.forEach(e => {
+                Options += '<option value="' + e.name + '"">' + e.name + '</option>'
+            })
+            document.querySelector('.countries').innerHTML = Options
+        }
+        loadCountries()
+    </script>
+
+</body>
+
+</html>
