@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Italiana&display=swap');
+
+
+body {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+.navbar {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #fff !important;
+}
+
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #fff !important;
+}
+
+li.nav-item.active {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 9px;
+}
+
+/* home section */
+.section.home {
+    position: relative;
+}
+
+.image-box__background {
+    /* --image-url: url("../img/10.png"); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+
+.image-box__background,
+.image-box__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.image-box__background {
+    background: url("../img/10.jpg") center center no-repeat;
+    background-size: cover;
+    z-index: 1
+}
+
+.image-box__overlay {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.image-box__content {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    z-index: 3;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-box__content button {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+/* home section end */
+
+.section {
+    height: 100%;
+}
+
+.section.hidden {
+    display: none !important;
+}
+
+
+/* portfolio*/
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    box-shadow: rgba(255, 254, 254, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* portfolio end */
+
+/* footer */
+
+footer a {
+    color: #fff;
+}
+
+footer {
+    height: 10vh;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: #fff;
+    font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* about */
+
+.section.about .col-lg-6 {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    color: #fff;
+}
+
+.section.about .col-lg-6 p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    color: #fff;
+}
+
+.section.about .col-lg-6 img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+/* contact us */
+
+.contact_list_container {
+    display: grid;
+    grid-gap: 5px;
+    justify-items: center;
+    grid-auto-flow: column;
+}
+
+.contact_list_container .contact_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.any_question {
+    margin-top: 2rem;
+}
+
+.any_question h3 {
+    color: #fff;
+    font-weight: 700;
+    font-family: "Cinzel", sans-serif;
+}
+
+.any_question h6 {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.contact_list_container .contact_list i {
+    color: #fff;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+.contact_list_container .contact_list h5 {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.contact_list_container .contact_list h6 {
+    color: #fff;
+    font-weight: 200;
+}
+
+.row.contact_form .col-6 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #625478;
+    border-radius: 19px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: #fff;
+}
+
+.row.contact_form .col-12 input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #625478;
+    border-radius: 19px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: #fff;
+}
+
+.row.contact_form .col-12 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #625478;
+    border-radius: 19px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: #fff;
+}
+
+.row.contact_form .col-12 select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #625478;
+    border-radius: 19px;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    /* color: #fff; */
+}
+
+.send_msg {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    padding: 9px;
+    margin-bottom: 1rem;
+    border: 2px solid #625478;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.contact_list_container .contact_list a {
+    text-decoration: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
