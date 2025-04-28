@@ -81,4 +81,7 @@ let contents = [
     { name: 'A Bloom Crowns Her Thought', size: '9.7 x 13.9 inches', medium: 'Acrylic and Oil on Canvas', year: '2023', framed: 'No', Desc: ''},
     { name: 'Blooming Serenity', size: '9.7 x 13.9 inches', medium: 'Acrylic and Oil on Canvas', year: '2023', framed: 'No', Desc: ''},
     { name: 'Luminous Flight', size: '8.3 x 11.7 inches', medium: 'Acrylic on Paper', year: '2022', framed: 'No', Desc: ''},
+    { name: '"Threads of Harmony', size: '70 x 55 cm', medium: 'Mixed Media on canvas', year: '2024', framed: 'Yes', Desc: ''},
+    { name: '"Beneath the Surface', size: '70 x 55 cm', medium: 'Mixed Media on canvas', year: '2025', framed: 'Yes', Desc: ''},
+    { name: '', size: '', medium: 'Acrylic on Canvas', year: '2024', framed: 'No', Desc: ''},
 ]
